@@ -1,0 +1,28 @@
+header{
+	background-image: url('../images/rain.jpg');
+
+}
+body{
+
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+
+h1{
+	text-transform: uppercase;
+	font-weight: lighter;
+	width: 800px;
+	left: 10%;
+	right:10%;
+
+}
+.head1{
+
+	animation: colourchange 1s infinite;
+}
+@keyframes colourchange{
+	0%{color: red;}
+	25%{color: #bf55ec;}
+	50%{color: white;}
+	100%{color: blue;}
+
+}
